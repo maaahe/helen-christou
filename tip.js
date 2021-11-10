@@ -14,7 +14,7 @@ const send = async function (amount) {
             method: "eth_sendTransaction",
             params: [{
                 from: accounts[0],
-                to: "0x1e24Fd7cFbDb7Bc847a48615E7047F7165A504Ec",
+                to: "0x9E08A541f304E98Ef6935aB6f4313C7369CF19c0",
                 value: web3.utils.toHex(wei)
             }]
         })
